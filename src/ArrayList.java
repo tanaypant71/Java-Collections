@@ -1,11 +1,12 @@
 // The Collections framework is defined in the java.util package
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 class Main {
     public static void main(String[] args){
-        ArrayList<Integer> list = new ArrayList<>();
+        List<Integer> list = new LinkedList<>();
         // Add elements
         list.add(1);
         list.add(2);
