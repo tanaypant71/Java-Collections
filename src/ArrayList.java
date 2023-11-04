@@ -6,32 +6,32 @@ import java.util.List;
 
 class Main {
     public static void main(String[] args){
-        List<Integer> list = new LinkedList<>();
-        // Add elements
-        list.add(1);
-        list.add(2);
-        list.add(3);
-
-        System.out.println(list);
-
-        list.add(4);
-        System.out.println(list);
-
-        for (int i = 0; i < list.size(); i++)
-        {
-            System.out.println(list.get(i)+" ");
-        }
-
-        for(Integer element: list)
-        {
-            System.out.println(element);
-        }
-
-        Iterator<Integer> it = list.iterator();
-        while (it.hasNext())
-        {
-            System.out.println(it.next());
-        }
+//        List<Integer> list = new LinkedList<>();
+//        // Add elements
+//        list.add(1);
+//        list.add(2);
+//        list.add(3);
+//
+//        System.out.println(list);
+//
+//        list.add(4);
+//        System.out.println(list);
+//
+//        for (int i = 0; i < list.size(); i++)
+//        {
+//            System.out.println(list.get(i)+" ");
+//        }
+//
+//        for(Integer element: list)
+//        {
+//            System.out.println(element);
+//        }
+//
+//        Iterator<Integer> it = list.iterator();
+//        while (it.hasNext())
+//        {
+//            System.out.println(it.next());
+//        }
 
 
 

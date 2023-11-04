@@ -13,5 +13,6 @@ public class learnStack {
 
         s.pop();
         System.out.println(s.peek());
+
     }
 }
